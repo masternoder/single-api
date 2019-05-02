@@ -34,7 +34,7 @@
 
   </body>
     <script>
-      var URL_SERVER = 'https://localhost:443';
+      var URL_SERVER = 'https://localhost:5691';
       var socket = io.connect(URL_SERVER, {rejectUnauthorized: false} );
 
       socket.on('message', function(data) {
