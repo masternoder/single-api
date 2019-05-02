@@ -8,7 +8,7 @@ var options = {
   key: fs.readFileSync('./dev_keys/file.pem'),
   cert: fs.readFileSync('./dev_keys/file.crt')
 };
-var serverPort = 443;
+var serverPort = 5691;
 
 var server = https.createServer(options, app);
 var io = require('socket.io')(server);
