@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Update node_modules"
+exec npm install
